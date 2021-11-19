@@ -49,7 +49,7 @@ class Produk extends CI_Controller {
 		);
 		
 		$this->cart->insert($data);
-		redirect('welcome/detailproduk/'.$id);
+		redirect('produk/detailproduk/'.$id);
 	}
 	
 	function cart()
